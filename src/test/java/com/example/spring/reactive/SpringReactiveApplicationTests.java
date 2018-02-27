@@ -11,9 +11,9 @@ import java.util.concurrent.CountDownLatch;
 import static org.junit.Assert.assertEquals;
 
 public class SpringReactiveApplicationTests {
-    private User peter = new User("Peter", "Griffin");
-    private User lois = new User("Lois", "Griffin");
-    private User brain = new User("Brain", "Griffin");
+    private User peter = new User("1", "Peter","Griffin");
+    private User lois = new User("2","Lois", "Griffin");
+    private User brain = new User("3","Brain", "Griffin");
 
     @Test
     public void mono() {
